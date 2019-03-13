@@ -13,6 +13,9 @@ public class Main {
         currentYear();
         System.out.println("Please enter a pizza diameter.");
         printPizzaArea(input.nextInt());
+        for (int i = 0; i <5; i++) {
+            displayMessage();
+        }
     }
     public static void currentYear() {
         System.out.println("currentYear has been called.");
@@ -28,5 +31,8 @@ public class Main {
             pizzaArea = piVal * pizzaRadius * pizzaRadius;
             System.out.print(pizzaDiameter + " inch pizza is ");
             System.out.println(pizzaArea + " inches squared.");
+        }
+        public static void displayMessage() {
+        System.out.println("The displayMessage method.");
         }
     }
