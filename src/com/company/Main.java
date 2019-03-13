@@ -5,12 +5,15 @@
 package com.company;
 
 public class Main {
-
     public static void main(String[] args) {
-	// write your code here
-        public static void myMethod() {
-            System.out.println("myMethod has been called.");
-
-        }
+        // write your code here
+        System.out.println("About to encounter a method.");
+        currentYear();
     }
+    public static void currentYear() {
+        System.out.println("currentYear has been called.");
+        int x = 2019;
+        System.out.println("The current Year is " + x);
+    }
+
 }
